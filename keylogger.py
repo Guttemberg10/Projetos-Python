@@ -2,7 +2,7 @@
 # Guttemberg
 # 18/01/2024
 
-#Iniciando as bibliotecas
+#Chamando as bibliotecas
 from pynput.mouse import Listener as MouseListener
 from pynput.keyboard import Listener as KeyboardListener
 from datetime import datetime
