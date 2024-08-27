@@ -1,3 +1,7 @@
+# Programa que pega vídeos de vestibular e guarda em playlists de forma automática
+# Gabriel - Ctrl Python: Lab
+# 22/08/2024
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
