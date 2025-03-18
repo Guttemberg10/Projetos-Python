@@ -1,5 +1,5 @@
 # Programa que controla o mouse usando sua mão
-# Gabriel e Edson - Ctrl+Play
+# Gabriel Novais
 # 19/08/2024
 
 #Importações:
