@@ -1,5 +1,5 @@
 # Jogo de luta entre dois pokémons
-# Guttemberg
+# Gabriel Novais
 # 16/11/2022
 
 from random import random
