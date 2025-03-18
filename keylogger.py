@@ -1,5 +1,5 @@
 # Arquivo que grampeia um computador (Keylogger)
-# Guttemberg
+# Gabriel Novais
 # 18/01/2024
 
 #Chamando as bibliotecas
