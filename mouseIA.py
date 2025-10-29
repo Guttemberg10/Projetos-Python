@@ -1,5 +1,5 @@
-# Programa que controla o mouse usando sua mão
-# Gabriel Novais
+# Agoritmo para controlar o cursor do mouse com o movimento da mão
+# Profº Gabriel Novais
 # 19/08/2024
 
 #Importações:
@@ -50,8 +50,8 @@ while True:
             distance = calculate_distance(index_finger_tip, thumb_tip)
             
             # Movendo o cursor do mouse
-            x = int(index_finger_tip.x * frame_width)
-            y = int(index_finger_tip.y * frame_height)
+            x = int(hand_landmarks.landmark[9].x * frame_width)
+            y = int(hand_landmarks.landmark[9].y * frame_height)
             
             # Invertendo o eixo x e ajustando o eixo y
             screen_x = screen_width - (screen_width / frame_width * x)
